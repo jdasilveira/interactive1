@@ -1,0 +1,17 @@
+
+/* reset styles */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* begin styles */
+
+body {
+	color: green;
+	background: black url("jeiko.gif") no-repeat fixed center; 
+
+}
+
+div {
