@@ -1,0 +1,71 @@
+
+/* reset styles */
+/** {
+        margin: 0px; padding: 0px;
+}*/
+
+/* make the background of the page black */
+/*body {
+        background: black;
+}*/
+
+/* flag canvas */
+/*#canvas {
+        width: 500px;
+        height: 300px;
+        position: relative;
+        background: green;
+}*/
+
+/* shapes */
+/*#circle {
+        width: 150px;
+        height: 150px;
+        background: blue;
+        border-radius: 75px;
+}*/
+
+/* reset styles */
+* {
+        margin: 0px; padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+        background: black;
+}
+
+/* flag canvas */
+#canvas {
+        width: 500px;
+        height: 300px;
+        position: relative;
+        background: white;
+}
+
+/* shapes */
+#circle {
+        width: 150px;
+        height: 150px;
+        background: red;
+        border-radius: 75px;
+}
+
+#diamond {
+      width: 200px;
+      height: 200px;
+      border: 50px solid transparent;
+      border-bottom-color: yellow;
+      position: absolute;
+      top: -50px;
+    }
+    #diamond:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 200px;
+      height: 200px;
+      border: 50px solid transparent;
+      border-top-color: yellow;
+    }

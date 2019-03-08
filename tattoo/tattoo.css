@@ -7,6 +7,15 @@
 Your browser does not support the audio element.
 </audio>
 body {
+.custom {
+  cursor: url(tattoomouse.png), auto;
+}
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+  
   background: #384047;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 300;

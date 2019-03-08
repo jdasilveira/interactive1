@@ -2,7 +2,7 @@
 /* reset styles */
 
 * {
-	margin: 0px;
+	margin: 70px;
 	padding: 0px;
 }
 
@@ -10,8 +10,27 @@
 
 body {
 	color: green;
-	background: black url("jeiko.gif") no-repeat fixed center; 
+	background: black url("Untitled-3.3shape copy.pdf") no-repeat  center;
+	background: black url 
 
 }
 
-div {
+a, a:visited {
+  color: red;
+}
+
+
+a:hover {
+  color: green;
+}
+
+
+body.colorful {
+
+	background: purple;
+	border: double;
+	
+	
+
+    
+}
