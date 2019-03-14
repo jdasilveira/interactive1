@@ -1,52 +1,26 @@
 <html>
 <head>
   <title>Tattoo Drawing Application</title>
-  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
-   <li id= custom  cursor: url (tattoomouse.png/my-cursor.png), auto; ></li>
-
+  <link rel="stylesheet" href="css/tattoo.css" type="text/css" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
   <h1>Tattoo Drawing Application</h1>
-  <canvas width="600" height="400"></canvas>
-  <div class="controls">
-    <ul>
-      <li class="red selected"></li>
-      <li class="black"></li>
-      <li class="green"></li>
-    </ul>
-   
-    <button id="revealColorSelect">New Color</button>
-    <div id="colorSelect">
-      <span id="newColor"></span>
-      <div class="sliders">
-        <p>
-          <label for="red">Red</label>
-          <input id="red" name="red" type="range" min=0 max=255 value=0>
-        </p>
-        <p>
-          <label for="green">Green</label>
-          <input id="green" name="green" type="range" min=0 max=255 value=0>
-        </p>
-        <p>
-          <label for="blue">Blue</label>
-          <input id="blue" name="blue" type="range" min=0 max=255 value=0>
-          </p>
-          <p>
-          <label for="alpha">Alpha</label>
-          <input id="alpha" name="alpha" type="range" min=0 max=100 value=100>
-        </p>
-      </div>
-      <div>
-      <button id="addNewColor">Add Color</button>
-      </div>
-    </div>
-  </div>
+  
+ 
+
+  <canvas width="1200" height="600"></canvas>
+  
+
+  
+  
   <script src="https://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+
   <script src="js/app.js" type="text/javascript" charset="utf-8"></script>  
-  <audio controls>
-  <source src="horse.ogg" type="audio/ogg">
-  <source src="horse.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
+
+  <audio id="tattoo-sound">
+    <source src=" audio-03-07-2019-13-46-43.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </Audio>
+
 </body>
 </html>
