@@ -11,7 +11,7 @@
 
 body {
 	color: green;
-	background: black url("jeiko copy.gif")   center;
+	background:  url( "jeiko copy.gif")   center;
 	
 
 }
@@ -31,9 +31,7 @@ a:hover {
 
 body.colorful {
 
-
-
-	background: black;
+    background: black;
 	border: double;
 
 	
