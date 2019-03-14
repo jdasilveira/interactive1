@@ -4,15 +4,19 @@
 * {
 	margin: 70px;
 	padding: 0px;
+	left: 
 }
 
 /* begin styles */
 
 body {
 	color: green;
-	background: black url("jeiko copy.gif") no-repeat  center;
+	background: black url("jeiko copy.gif")   center;
 	
 
+}
+body{
+	font-family: futura
 }
 
 a, a:visited {
@@ -27,8 +31,12 @@ a:hover {
 
 body.colorful {
 
-	background: purple;
+
+
+	background: black;
 	border: double;
+	 
+	
 	
 	
 
