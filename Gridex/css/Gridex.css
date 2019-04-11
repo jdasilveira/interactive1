@@ -1,0 +1,115 @@
+
+body {
+  background: url(https://media.giphy.com/media/Ph0oIVQeuvh0k/giphy.gif);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-template-columns: auto auto auto auto;  
+ /* grid-template-columns: auto auto auto;*/
+  /*grid-template-rows: 700px 700px 700px;*/
+  grid-gap: 10px 40px;
+   border: 5px solid black;
+}
+
+.grid-container > div {
+  display: grid;
+  grid-gap: 5px;
+  background-color: white;
+  padding: 20px;
+  font-family: ComicSansMS;
+  font-size: 50px;
+   border: 5px solid black;
+}
+
+.grid-item {
+  background-color: white;
+  border: 5px solid black;
+}
+/*
+#item-1 {
+  background: white;
+  grid-column-start: 300;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 6;       
+}
+*/
+/*.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  font-family: ComicSansMS;
+}*/
+
+/*.item1 { 
+  grid-area: header;
+
+}*/
+
+/*.scale{
+  position:absolute;
+  width:200px;
+  top:300px;
+  left:400px;
+  height: auto;
+  opacity: 0;
+}
+*/
+.container >img:nth-child(even){
+  display: none;
+}
+
+.container:hover >img:nth-child(even){
+  display: block;
+}
+
+.container:hover >img:nth-child(odd){
+  display: none;
+}
+
+img{
+  pointer-events: none;
+}
+
+/*.item2 { 
+  grid-area: The Coldesac;
+}
+
+.item3 {
+ grid-area: Campers; 
+
+}
+
+.item4 {
+ grid-area: Tree House; 
+}
+
+.item5 { 
+  grid-area: footer; 
+}*/
+
+a:hover {
+  color: green;
+}
+<https://www.youtube.com/watch?v=-u4ZBtFKsZM>
+  
+
+
+
+
+/*img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}*/
+
+
+
+
+
+
