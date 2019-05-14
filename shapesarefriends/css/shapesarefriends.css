@@ -1,3 +1,30 @@
+/* reset styles */
+/** {
+        margin: 0px; padding: 0px;
+}*/
+
+/* make the background of the page black */
+/*body {
+        background: black;
+}*/
+
+/* flag canvas */
+/*#canvas {
+        width: 500px;
+        height: 300px;
+        position: relative;
+        background: green;
+}*/
+
+/* shapes */
+/*#circle {
+        width: 150px;
+        height: 150px;
+        background: blue;
+        border-radius: 75px;
+}*/
+
+/* reset styles */
 
 /* reset styles */
 /** {
@@ -26,49 +53,39 @@
 }*/
 
 /* reset styles */
-* {
-        margin: 0px; padding: 0px;
+
+
+
+div.a {
+width: 50px;
+height:50px;
+ background-color:red;
+position:fixed;
+    
 }
 
-/* make the background of the page black */
-body {
-        background: black;
+<html>
+<body>
+
+body { 
+background: url( https://media.giphy.com/media/KVZWZQoS0yqfIiTAKq/giphy.gif); 
 }
 
-/* flag canvas */
-#canvas {
-        width: 500px;
-        height: 300px;
-        position: relative;
-        background: white;
-}
 
-/* shapes */
-#circle {
-        width: 150px;
-        height: 150px;
-        background: red;
-        border-radius: 75px;
-        position: center;
-        left:100
-        right:100
-}
 
-#diamond {
-      width: 200px;
-      height: 200px;
-      border: 50px solid transparent;
-      border-bottom-color: yellow;
-      position: absolute;
-      top: -50px;
-    }
-    #diamond:after {
-      content: '';
-      position: absolute;
-      left: -50px;
-      top: 50px;
-      width: 200px;
-      height: 200px;
-      border: 50px solid transparent;
-      border-top-color: yellow;
-    }
+<h2>JavaScript Math</h2>
+
+<p>Math.floor(Math.random(1) * 100)) returns a random integer between 1 and 99 
+(both included):</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML =
+Math.floor(Math.random(1) * 100);
+</script>
+
+
+
+</body>
+</html>
